@@ -3,6 +3,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 70%;
    
 }
 
@@ -10,12 +12,14 @@
     position: absolute;
     top: 0;
     right: 0;
-    
-    
 }
+
+
 a {
     color: aliceblue;
 }
+
+
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                        rgba(0, 0, 0, 0.5)), url(4F48D2E6-E3B3-432E-AB1E-5C37B8FF4743_1_105_c.jpeg);
