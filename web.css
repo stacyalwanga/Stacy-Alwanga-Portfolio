@@ -9,7 +9,17 @@
     transform: translate(-50%, -50%);
     background-color: black;
     opacity: 70%;
+    border-radius: 8px;
+    color:brown;
    
+}
+
+ul {
+    list-style-type: none;
+}
+.header h1{
+    font-size: 80px;
+    
 }
 
 nav ul li {
@@ -28,10 +38,14 @@ nav ul li a:hover{
     content: '';
     width: 0;
     height: 3px;
-    color:aqua;
+    color: brown;
     left: 0;
     bottom: -6px;
     transition: 0.3s;
+}
+
+.heading{
+    color: brown;
 }
 
 nav ul li a:hover::after{
@@ -44,7 +58,7 @@ body{
     object-fit: cover;
     background-size: cover;
     background-position-y: 25%;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    color:aliceblue;
 }
 
@@ -55,8 +69,13 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    opacity: 75%;
+    border-radius: 10px;
+}
+
+.profileheader h1{
+    font-size: 40px;
 }
   
 

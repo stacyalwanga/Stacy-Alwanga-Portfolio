@@ -8,7 +8,9 @@
 
 </head>
 <body>
-    <main>
+
+    <div class="transition transition-1 is-active"></div>
+
     <div class="mainbody">
         <center><nav>
             <ul>
@@ -22,16 +24,31 @@
         </ul>
         </nav></center>
         <div class="profileheader">
-            <center><h1>Hello There!</h1></center>
-            <center><h3>Cybersecurity Student</h3></center>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore beatae iste sint neque blanditiis, <br>
-                ducimus magni dolores vel, in et, alias tempora laborum nemo quisquam ut autem nam quae natus?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, <br>
-                sed non alias similique soluta cum animi cumque quis inventore nesciunt officiis enim eum, dolorum repudiandae deserunt <br>
-                architecto nobis temporibus numquam!</p>
+            <center><h1 class="heading"><span class="maintopic">Certifications</span></h1></center>
+            
+                <ul>
+                    <li>AWS Solutions Architect Associate</li>
+                    <li>AWS Cloud Security Graduate</li>
+                    <li>AWS Cloud Foundations Graduate</li>
+                    <li>CCNA 2: Enterprise, Networking, Security and Automation Graduate</li>
+                    <li>Cisco Introduction to Cyber Security Graduate</li>
+                    <li>Cisco IT Essentials: PC Hardware and Software</li>
+                </ul>
+            
+        
         </div>
         
     </div>
-</main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".maintopic", {
+            strings: ["Certifications"],
+            typeSpeed: 200,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>  
+
 </body>
 </html>

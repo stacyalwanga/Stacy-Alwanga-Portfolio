@@ -8,6 +8,12 @@
 
 </head>
 <body>
+
+
+
+    <div class="transition transition-1 is-active"></div>
+
+
     <div class="mainbody">
         <center><nav>
             <ul>
@@ -21,16 +27,36 @@
         </ul>
         </nav></center>
         <div class="profileheader">
-            <center><h1>Hello There!</h1></center>
-            <center><h3>Cybersecurity Student</h3></center>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore beatae iste sint neque blanditiis, <br>
-                ducimus magni dolores vel, in et, alias tempora laborum nemo quisquam ut autem nam quae natus?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, <br>
-                sed non alias similique soluta cum animi cumque quis inventore nesciunt officiis enim eum, dolorum repudiandae deserunt <br>
-                architecto nobis temporibus numquam!</p>
+            <center><h1 class="heading"><span class="maintopic">Skills</span></h1></center>
+                <center><h2>I am Skilled In</h2></center>
+                <ul>
+                   <li>Computer proficiency skills in Python, Bash/Shell, Java, PHP, databases, data structures and algorithms,
+                        Unix systems, and virtualization. Project management.</li>
+                   <li>Penetration Testing of Wireless Networks, Information Gathering, Exploitation, Post-Exploitation, Web Application Penetration Testing, 
+                       Mobile Penetration Testing, Digital Forensics, and Use of a Rubber Ducky to steal Credentials</li>
+                   <li>Vulnerability Assessments using Nessus, OpenVAS to identify CVEs, Cyber Kill Chain to understand 
+                           adversary attacks, and the MITRE ATT&CK Framework</li>
+                   <li>Cloud Computing and Cloud Security on the AWS Cloud</li>
+                   <li>Linux Operating Systems, creation and management of users in 
+                               the system, git version control, configuring a server, and security configuration and management.</li>
+                   <li>Artificial intelligence, and Machine Learning algorithms applicable in Cybersecurity</li>
+                   <li>Blockchain Technologies</li>
+                   <li>Network configuration of network devices to enable routing, switching, automation, and network security.</li>
+   
+                </ul>
         </div>
         
+        
     </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".maintopic", {
+            strings: ["Skills"],
+            typeSpeed: 200,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>  
     
 </body>
 </html>

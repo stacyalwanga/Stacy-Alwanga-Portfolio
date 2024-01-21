@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="web.css">
 </head>
 <body id="profilebody">
+
+    <div class="transition transition-1 is-active"></div>
+
+
     <div class="mainbody">
         <center><nav>
             <ul>
@@ -21,12 +25,29 @@
         </nav></center>
 
         <div class="profileheader">
-            <center><h1>About Me</h1></center>
-            <center><h3>Cybersecurity Student</h3></center>
-            <p>Hello my name is Stacy Alwanga. I </p>
-             
+            <center><h1 class="heading"><span class="maintopic">About Me</span></h1></center><br>
+            <p>Hello my name is Stacy Alwanga. I am a recent graduate from Strathmore University. I finished my degree in Computer 
+                Networks and Cybersecurity. I liked my degree because I gained various skills in security. 
+            </p>
+            <p>I am a part time CTF(Capture the Flag) player!</p>
+           <p>I also like developing softwares such as websites. I have developed a food ordering website.</p>
+           <p>During my free time, I enjoy fine dining and my favorite meal at the moment is sushi!</p>
+           <br><br>
+           <center>
+            <b><p>If you wish to contact me, you can email me on astacy554@ayahoo.com </p></b>
+            <b><p>My phone number is 0797912580</p></b>
+           </center>
         </div>
-    </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".maintopic", {
+                strings: ["About Me"],
+                typeSpeed: 200,
+                backSpeed: 150,
+                loop: true
+            })
+        </script>       
+        
 
 
 </body>

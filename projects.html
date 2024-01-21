@@ -8,6 +8,10 @@
 
 </head>
 <body>
+
+    <div class="transition transition-1 is-active"></div>
+
+
     <div class="mainbody">
         <center><nav>
             <ul>
@@ -22,15 +26,38 @@
         </nav></center>
 
         <div class="profileheader">
-            <center><h1>Hello There!</h1></center>
+            <center><h1 class="heading"><span class="maintopic">Projects Done</span></h1></center>
             <center><h3>Cybersecurity Student</h3></center>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore beatae iste sint neque blanditiis, <br>
-                ducimus magni dolores vel, in et, alias tempora laborum nemo quisquam ut autem nam quae natus?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, <br>
-                sed non alias similique soluta cum animi cumque quis inventore nesciunt officiis enim eum, dolorum repudiandae deserunt <br>
-                architecto nobis temporibus numquam!</p>
+            <ul>
+                <li>Anomaly-based SIEM using Wazuh to detect attacks on the network layer, 
+                    and transport layer in real-time. Hosted on the AWS Cloud. Trained a dataset and integrated it with Wazuh to detect session attacks
+                    in cloud and on-premise services</li>
+                <li>Network-based Intrusion Detection System using Snort. Was able to detect real-time attacks on the network 
+                    layer and transport layer in real-time</li>
+                <li>Using Natural Language Processing to develop a search engine</li>
+                <li>Using Machine Learning models to train a dataset to detect network anomalies</li>
+                <li>Food Ordering Website that allows the user to communicate with the backend, and make an order of a meal.</li>
+                <li>School Application using Java that enables a user to communicate with the backend to view the students grades in real-time</li>
+                <li>Android Application Egg Timer using Java and Kotlin</li>
+                <li>Cisco Packet Tracer Labs in Networking, Routing, ACLs, NAT, DHCP, STP, VLANs, and VTP.</li>
+                <li>Development, Configuration, and Management of a Bind 9 DNS Server, LDAP Server on a Linux Server</li>
+                <li>AWS Cloud Practitioner Cloud Quest Labs. Worked on real-world projects, implementing AWS Cloud Solutions in AWS Skills Builder</li>
+                <li>AWS Cloud Security Labs by solving real-world projects, implementing Cloud Solutions in AWS Skills Builder</li>
+                
+            </ul>
+            
         </div>
     </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".maintopic", {
+            strings: ["Projects"],
+            typeSpeed: 200,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>  
     
 </body>
 </html>
